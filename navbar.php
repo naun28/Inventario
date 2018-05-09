@@ -20,6 +20,7 @@
       <ul class="nav navbar-nav">
         <li class="<?php if (isset($active_productos)){echo $active_productos;}?>"><a href="stock.php"><i class='glyphicon glyphicon-ok-circle'></i>  Inventario</a></li>
 		<li class="<?php if (isset($active_categoria)){echo $active_categoria;}?>"><a href="categorias.php"><i class='glyphicon glyphicon-tags'></i>  Categorías</a></li>
+    <li class="<?php if (isset($active_ensamblaje)){echo $active_ensamblaje;}?>"><a href="ensamblaje.php"><i class='glyphicon glyphicon-wrench'></i>  Ensamblaje</a></li>
 		<li class="<?php if (isset($active_usuarios)){echo $active_usuarios;}?>"><a href="usuarios.php"><i  class='glyphicon glyphicon-user'></i>  Usuarios</a></li>
        </ul>
       <ul class="nav navbar-nav navbar-right">
