@@ -296,6 +296,9 @@
                  <h3 class="panel-title">Refacciones pequeñas</h3>
             </div>
             <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                    <div class="col-lg-4">
                 <div class="form-group">
                     <label class="control-label">ANTENNA PCB ADHESIVE FOAM</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
@@ -316,6 +319,8 @@
                     <label class="control-label">DOWN MIC SILICONE COVER</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
                 </div>
+                </div>
+                <div class="col-lg-4">
                 <div class="form-group">
                     <label class="control-label">DOWN SPEAKER BACK SEALING FOAM</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
@@ -336,6 +341,8 @@
                     <label class="control-label">LCD CONNECTOR FOAM 1</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
                 </div>
+                </div>
+                <div class="col-lg-4">
                  <div class="form-group">
                     <label class="control-label">LCD CONNECTOR FOAM 2</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
@@ -356,6 +363,10 @@
                     <label class="control-label">PROXIMITY SENSOR SILICONE COVER</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
                 </div>
+                </div>
+                </div>
+                <div class="col-lg-12">
+                <div class="col-lg-4">
                 <div class="form-group">
                     <label class="control-label">RF CABLE</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
@@ -372,10 +383,13 @@
                     <label class="control-label">SPEAKER</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
                 </div>
+                </div>
+                <div class="col-lg-4">
                 <div class="form-group">
                     <label class="control-label">SPEAKER DOWN FPC</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
                 </div>
+                
                  <div class="form-group">
                     <label class="control-label">SPEAKER GROUNDING CONDUCTIVE SPONGE</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
@@ -388,6 +402,8 @@
                     <label class="control-label">SPEAKER UP FPC</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
                 </div>
+                </div>
+                <div class="col-lg-4">
                 <div class="form-group">
                     <label class="control-label">UP MIC SILICONE COVER</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
@@ -399,6 +415,12 @@
                 <div class="form-group">
                     <label class="control-label">UP SPEAKER FRONT SEALING FOAM</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                </div>
+                
+</div>
+                
+</div>
                 </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
             </div>
