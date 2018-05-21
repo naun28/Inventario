@@ -79,7 +79,7 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">MICRO 5PIN USB CABLE</label>
-                    <input maxlength="100" type="number" name="uno" required="required" class="form-control" placeholder="Enter First Name" />
+                    <input maxlength="100" type="number" name="uno" required="required" class="form-control" placeholder="Cantidad"/>
                 </div>
                 
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
@@ -93,11 +93,11 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">MAIN FPC ANTENNA BLACK</label>
-                    <input maxlength="200" type="number" name="dos" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="dos" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">WIFI BT GPS ANT FPC BLACK</label>
-                    <input maxlength="200" type="number" name="tres" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="tres" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -110,7 +110,7 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">BATTERY</label>
-                    <input maxlength="200" type="number" name="cuatro" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="cuatro" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -122,7 +122,7 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">SIDEKEY FPC</label>
-                    <input maxlength="200" type="number" name="cinco" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="cinco" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -134,19 +134,19 @@
             <div class="panel-body">
                 <div class="form-group col-md-6">
                     <label class="control-label">GIFT BOX</label>
-                    <input maxlength="200" type="number" name="seis" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="seis" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">SLEEVE GOLD</label>
-                    <input maxlength="200" type="number" name="siete" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="siete" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">SLEEVE GRAY</label>
-                    <input maxlength="200" type="number" name="ocho" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="ocho" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">FAJILLA X710 DORADO</label>
-                    <input maxlength="200" type="number" name="nueve" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="nueve" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -158,11 +158,11 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">BACK CAMERA</label>
-                    <input maxlength="200" type="number" name="diez" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="diez" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">FRONT CAMERA</label>
-                    <input maxlength="200" type="number" name="once" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="once" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -174,23 +174,23 @@
             <div class="panel-body">
                 <div class="form-group col-md-6">
                     <label class="control-label">BACK COVER GOLD</label>
-                    <input maxlength="200" type="number" name="doce" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="doce" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">BACK COVER GRAY</label>
-                    <input maxlength="200" type="number" name="trece" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="trece" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">BATTERY COVER GOLDEN</label>
-                    <input maxlength="200" type="number" name="catorce" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="catorce" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">BATTERY COVER GREY</label>
-                    <input maxlength="200" type="number" name="quince" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="quince" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">CAMERA LENS</label>
-                    <input maxlength="200" type="number" name="diesciseis" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="diesciseis" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -202,19 +202,19 @@
             <div class="panel-body">
                 <div class="form-group col-md-6">
                     <label class="control-label">BATTERY COVER STICKER</label>
-                    <input maxlength="200" type="number" name="diescisiete" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="diescisiete" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">BATTERY SUPPORT LABEL</label>
-                    <input maxlength="200" type="number" name="diesciocho" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="diesciocho" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">GIFT BOX LABELING</label>
-                    <input maxlength="200" type="number" name="diescinueve" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="diescinueve" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">GIFT BOX SEALING LABEL</label>
-                    <input maxlength="200" type="number" name="veinte" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="veinte" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -226,15 +226,15 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">CHARGER</label>
-                    <input maxlength="200" type="number" name="veintiuno" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="veintiuno" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">EARPHONE</label>
-                    <input maxlength="200" type="number" name="veintidos" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="veintidos" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">MICRO 5PIN USB CABLE</label>
-                    <input maxlength="200" type="number" name="veintitres" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="veintitres" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -246,7 +246,7 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">PCBA ASSEMBLED PARTS</label>
-                    <input maxlength="200" type="number" name="veinticuatro" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="veinticuatro" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -258,7 +258,7 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">SUB PCBA</label>
-                    <input maxlength="200" type="number" name="veinticinco" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="veinticinco" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
@@ -271,15 +271,15 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">BACK CAMERA CONDUCTIVE GLUE</label>
-                    <input maxlength="200" type="number" name="veintiseis" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="veintiseis" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">BACK CAMERA LENS ADHESIVE TAPE</label>
-                    <input maxlength="200" type="number" name="veintisiete" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="veintisiete" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">SUB PCBA TAPE</label>
-                    <input maxlength="200" type="number" name="veintiocho" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="veintiocho" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -291,19 +291,19 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">CAMERA LENS PROTECTIVE FILM</label>
-                    <input maxlength="200" type="number" name="veintinueve" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="veintinueve" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">SCREEN PROTECTOR</label>
-                    <input maxlength="200" type="number" name="treinta" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="treinta" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">TP PROTECTIVE FILM</label>
-                    <input maxlength="200" type="number" name="treintayuno" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="treintayuno" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">TPU PROTECTOR COVER</label>
-                    <input maxlength="200" type="number" name="treintaydos" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="treintaydos" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -318,67 +318,67 @@
                     <div class="col-lg-4">
                 <div class="form-group">
                     <label class="control-label">ANTENNA PCB ADHESIVE FOAM</label>
-                    <input maxlength="200" type="number" name="treintaytres" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="treintaytres" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">BACK CAMERA FOAM</label>
-                    <input maxlength="200" type="number" name="treintaycuatro" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="treintaycuatro" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                  <div class="form-group">
                     <label class="control-label">BB SHIELDING CASE</label>
-                    <input maxlength="200" type="number" name="treintaycinco" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="treintaycinco" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">CELLPHONE BAG</label>
-                    <input maxlength="200" type="number" name="a" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="a" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                  <div class="form-group">
                     <label class="control-label">DOWN MIC SILICONE COVER</label>
-                    <input maxlength="200" type="number" name="b" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="b" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 </div>
                 <div class="col-lg-4">
                 <div class="form-group">
                     <label class="control-label">DOWN SPEAKER BACK SEALING FOAM</label>
-                    <input maxlength="200" type="number" name="c" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="c" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                  <div class="form-group">
                     <label class="control-label">DOWN SPEAKER FRONT SEALING FOAM</label>
-                    <input maxlength="200" type="number" name="d" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="d" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">FLASH FPC</label>
-                    <input maxlength="200" type="number" name="e" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="e" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                  <div class="form-group">
                     <label class="control-label">FRONT CAMERA FOAM</label>
-                    <input maxlength="200" type="number" name="f" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="f" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">LCD CONNECTOR FOAM 1</label>
-                    <input maxlength="200" type="number" name="g" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="g" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 </div>
                 <div class="col-lg-4">
                  <div class="form-group">
                     <label class="control-label">LCD CONNECTOR FOAM 2</label>
-                    <input maxlength="200" type="number" name="h" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="h" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">MAIN FPC</label>
-                    <input maxlength="200" type="number" name="i" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="i" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                  <div class="form-group">
                     <label class="control-label">MOTOR</label>
-                    <input maxlength="200" type="number" name="j" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="j" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">PCB GROUNDING SPONGE</label>
-                    <input maxlength="200" type="number" name="k" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="k" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                  <div class="form-group">
                     <label class="control-label">PROXIMITY SENSOR SILICONE COVER</label>
-                    <input maxlength="200" type="number" name="l" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="l" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 </div>
                 </div>
@@ -386,52 +386,52 @@
                 <div class="col-lg-4">
                 <div class="form-group">
                     <label class="control-label">RF CABLE</label>
-                    <input maxlength="200" type="number" name="m" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="m" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                  <div class="form-group">
                     <label class="control-label">SCREW M1.4X0.3X2.5L</label>
-                    <input maxlength="200" type="number" name="n" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="n" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">SCREW M1.4X0.3X3.0L</label>
-                    <input maxlength="200" type="number" name="o" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="o" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                  <div class="form-group">
                     <label class="control-label">SPEAKER</label>
-                    <input maxlength="200" type="number" name="p" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="p" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 </div>
                 <div class="col-lg-4">
                 <div class="form-group">
                     <label class="control-label">SPEAKER DOWN FPC</label>
-                    <input maxlength="200" type="number" name="q" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="q" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 
                  <div class="form-group">
                     <label class="control-label">SPEAKER GROUNDING CONDUCTIVE SPONGE</label>
-                    <input maxlength="200" type="number" name="r" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="r" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">SPEAKER SEALING BACK COVER FOAM</label>
-                    <input maxlength="200" type="number" name="s" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="s" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                  <div class="form-group">
                     <label class="control-label">SPEAKER UP FPC</label>
-                    <input maxlength="200" type="number" name="t" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="t" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 </div>
                 <div class="col-lg-4">
                 <div class="form-group">
                     <label class="control-label">UP MIC SILICONE COVER</label>
-                    <input maxlength="200" type="number" name="u" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="u" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                  <div class="form-group">
                     <label class="control-label">UP SPEAKER BACK SEALING FOAM</label>
-                    <input maxlength="200" type="number" name="v" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="v" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">UP SPEAKER FRONT SEALING FOAM</label>
-                    <input maxlength="200" type="number" name="w" required="required" class="form-control" placeholder="Enter Company Address" />
+                    <input maxlength="200" type="number" name="w" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 </div>
                 
@@ -449,7 +449,7 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">FRONT HOSING TP ASSEMBLY BLACK</label>
-                    <input maxlength="200" type="number" name="x" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="x" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success nextBtn pull-right" type="button">Next</button>
             </div>
@@ -461,7 +461,7 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label class="control-label">MMI</label>
-                    <input maxlength="200" type="number" name="y" required="required" class="form-control" placeholder="Enter Company Name" />
+                    <input maxlength="200" type="number" name="y" required="required" class="form-control" placeholder="Cantidad" />
                 </div>
                 <button class="btn btn-success pull-right" type="submit">Finish!</button>
             </div>
