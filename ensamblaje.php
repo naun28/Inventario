@@ -39,7 +39,22 @@
 				include("modal/nuevo_ensamble.php");
 				include("modal/editar_categorias.php");
 			?>
-			<form class="form-horizontal" role="form" id="datos_cotizacion">
+
+<div class="col-lg-12">
+
+<?php include("cont_ensamblaje.php"); ?>
+
+</div>
+
+
+
+
+
+
+
+
+
+			<!--<form class="form-horizontal" role="form" id="datos_cotizacion">
 				
 						<div class="form-group row">
 							<label for="q" class="col-md-2 control-label">Nombre</label>
@@ -57,8 +72,8 @@
 				
 				
 			</form>
-				<div id="resultados"></div><!-- Carga los datos ajax -->
-				<div class='outer_div'></div><!-- Carga los datos ajax -->
+				<div id="resultados"></div> Carga los datos ajax 
+				<div class='outer_div'></div> Carga los datos ajax -->
 			
 		
 	
@@ -74,5 +89,49 @@
 	include("footer.php");
 	?>
 	<script type="text/javascript" src="js/categorias.js"></script>
+	<script>
+		$(document).ready(function () {
+
+    var navListItems = $('div.setup-panel div a'),
+        allWells = $('.setup-content'),
+        allNextBtn = $('.nextBtn');
+
+    allWells.hide();
+
+    navListItems.click(function (e) {
+        e.preventDefault();
+        var $target = $($(this).attr('href')),
+            $item = $(this);
+
+        if (!$item.hasClass('disabled')) {
+            navListItems.removeClass('btn-success').addClass('btn-default');
+            $item.addClass('btn-success');
+            allWells.hide();
+            $target.show();
+            $target.find('input:eq(0)').focus();
+        }
+    });
+
+    allNextBtn.click(function () {
+        var curStep = $(this).closest(".setup-content"),
+            curStepBtn = curStep.attr("id"),
+            nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+            curInputs = curStep.find("input[type='text'],input[type='url']"),
+            isValid = true;
+
+        $(".form-group").removeClass("has-error");
+        for (var i = 0; i < curInputs.length; i++) {
+            if (!curInputs[i].validity.valid) {
+                isValid = false;
+                $(curInputs[i]).closest(".form-group").addClass("has-error");
+            }
+        }
+
+        if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
+    });
+
+    $('div.setup-panel div a.btn-success').trigger('click');
+});
+	</script>
   </body>
 </html>
