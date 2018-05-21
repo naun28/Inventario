@@ -19,7 +19,7 @@
                 <p><small>Botones</small></p>
             </div>
             <div class="stepwizard-step col-xs-3"> 
-                <a href="#step-5" type="button" class="btn btn-success btn-circle" disabled="disabled">5</a>
+                <a href="#step-5" type="button" class="btn btn-default btn-circle" disabled="disabled">5</a>
                 <p><small>Cajas</small></p>
             </div>
             <div class="stepwizard-step col-xs-3"> 
@@ -35,7 +35,7 @@
                 <p><small>Etiquetas</small></p>
             </div>
             <div class="stepwizard-step col-xs-3"> 
-                <a href="#step-9" type="button" class="btn btn-success btn-circle" disabled="disabled">9</a>
+                <a href="#step-9" type="button" class="btn btn-default btn-circle" disabled="disabled">9</a>
                 <p><small>Papeleria</small></p>
             </div>
             <div class="stepwizard-step col-xs-3"> 
@@ -51,7 +51,7 @@
                 <p><small>Pregamentos</small></p>
             </div>
             <div class="stepwizard-step col-xs-3"> 
-                <a href="#step-13" type="button" class="btn btn-success btn-circle" disabled="disabled">13</a>
+                <a href="#step-13" type="button" class="btn btn-default btn-circle" disabled="disabled">13</a>
                 <p><small>Protectores</small></p>
             </div>
             <div class="stepwizard-step col-xs-3"> 
@@ -120,8 +120,199 @@
                 <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
             </div>
         </div>
-        
         <div class="panel panel-primary setup-content" id="step-4">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-5">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-6">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-7">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-8">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-9">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-10">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-11">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-12">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-13">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-14">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-15">
+            <div class="panel-heading">
+                 <h3 class="panel-title">Schedule</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="control-label">Company Name</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Company Address</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+            </div>
+        </div>
+        <div class="panel panel-primary setup-content" id="step-16">
             <div class="panel-heading">
                  <h3 class="panel-title">Cargo</h3>
             </div>

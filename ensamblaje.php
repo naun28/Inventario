@@ -88,6 +88,7 @@
 	<?php
 	include("footer.php");
 	?>
+	
 	<script type="text/javascript" src="js/categorias.js"></script>
 	<script>
 		$(document).ready(function () {
