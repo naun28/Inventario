@@ -74,7 +74,7 @@
     <form role="form">
         <div class="panel panel-primary setup-content" id="step-1">
             <div class="panel-heading">
-                 <h3 class="panel-title">Shipper</h3>
+                 <h3 class="panel-title">Accesorios Generales</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -91,7 +91,7 @@
         
         <div class="panel panel-primary setup-content" id="step-2">
             <div class="panel-heading">
-                 <h3 class="panel-title">Destination</h3>
+                 <h3 class="panel-title">Antenas</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -108,7 +108,7 @@
         
         <div class="panel panel-primary setup-content" id="step-3">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">Baterias</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -124,7 +124,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-4">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">Botones</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -140,7 +140,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-5">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">Cajas</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -156,7 +156,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-6">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">Camaras</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -172,7 +172,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-7">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">Carcasas</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -188,7 +188,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-8">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">Etiquetas</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
