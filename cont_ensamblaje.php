@@ -1,7 +1,8 @@
 
 <div class="wrapper-container">
     <div class="stepwizard">
-        <div class="stepwizard-row setup-panel">
+        <hr>
+        <div class=" setup-panel">
             <div class="stepwizard-step col-xs-3"> 
                 <a href="#step-1" type="button" class="btn btn-success btn-circle">1</a>
                 <p><small>Accesorios Generales</small></p>
@@ -44,11 +45,11 @@
             </div>
             <div class="stepwizard-step col-xs-3"> 
                 <a href="#step-11" type="button" class="btn btn-default btn-circle" disabled="disabled">11</a>
-                <p><small>PCBA Sencundario</small></p>
+                <p><small>PCBA Secundario</small></p>
             </div>
             <div class="stepwizard-step col-xs-3"> 
                 <a href="#step-12" type="button" class="btn btn-default btn-circle" disabled="disabled">12</a>
-                <p><small>Pregamentos</small></p>
+                <p><small>Pegamentos</small></p>
             </div>
             <div class="stepwizard-step col-xs-3"> 
                 <a href="#step-13" type="button" class="btn btn-default btn-circle" disabled="disabled">13</a>
@@ -67,8 +68,9 @@
                 <p><small>Pendiente</small></p>
             </div>
         </div>
+        
     </div>
-    
+    <hr>
     <form role="form">
         <div class="panel panel-primary setup-content" id="step-1">
             <div class="panel-heading">
@@ -202,7 +204,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-9">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">Papeleria</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -218,7 +220,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-10">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">PCBA</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -234,7 +236,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-11">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">PCBA Secundario</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -250,7 +252,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-12">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title"> Pegamento</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -266,7 +268,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-13">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">Protectores</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -282,7 +284,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-14">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">Refacciones pequeñas</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -298,7 +300,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-15">
             <div class="panel-heading">
-                 <h3 class="panel-title">Schedule</h3>
+                 <h3 class="panel-title">Touch</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
@@ -314,7 +316,7 @@
         </div>
         <div class="panel panel-primary setup-content" id="step-16">
             <div class="panel-heading">
-                 <h3 class="panel-title">Cargo</h3>
+                 <h3 class="panel-title">Pendiente</h3>
             </div>
             <div class="panel-body">
                 <div class="form-group">
