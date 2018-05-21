@@ -208,11 +208,15 @@
             </div>
             <div class="panel-body">
                 <div class="form-group">
-                    <label class="control-label">Company Name</label>
+                    <label class="control-label">CHARGER</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
                 </div>
                 <div class="form-group">
-                    <label class="control-label">Company Address</label>
+                    <label class="control-label">EARPHONE</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">MICRO 5PIN USB CABLE</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
                 </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
@@ -224,12 +228,8 @@
             </div>
             <div class="panel-body">
                 <div class="form-group">
-                    <label class="control-label">Company Name</label>
+                    <label class="control-label">PCBA ASSEMBLED PARTS</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
-                </div>
-                <div class="form-group">
-                    <label class="control-label">Company Address</label>
-                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
                 </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
             </div>
@@ -240,13 +240,10 @@
             </div>
             <div class="panel-body">
                 <div class="form-group">
-                    <label class="control-label">Company Name</label>
+                    <label class="control-label">SUB PCBA</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
                 </div>
-                <div class="form-group">
-                    <label class="control-label">Company Address</label>
-                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
-                </div>
+                
                 <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
             </div>
         </div>
@@ -256,11 +253,15 @@
             </div>
             <div class="panel-body">
                 <div class="form-group">
-                    <label class="control-label">Company Name</label>
+                    <label class="control-label">BACK CAMERA CONDUCTIVE GLUE</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
                 </div>
                 <div class="form-group">
-                    <label class="control-label">Company Address</label>
+                    <label class="control-label">BACK CAMERA LENS ADHESIVE TAPE</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">SUB PCBA TAPE</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
                 </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
@@ -272,11 +273,19 @@
             </div>
             <div class="panel-body">
                 <div class="form-group">
-                    <label class="control-label">Company Name</label>
+                    <label class="control-label">CAMERA LENS PROTECTIVE FILM</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
                 </div>
                 <div class="form-group">
-                    <label class="control-label">Company Address</label>
+                    <label class="control-label">SCREEN PROTECTOR</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">TP PROTECTIVE FILM</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">TPU PROTECTOR COVER</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
                 </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
@@ -288,11 +297,107 @@
             </div>
             <div class="panel-body">
                 <div class="form-group">
-                    <label class="control-label">Company Name</label>
+                    <label class="control-label">ANTENNA PCB ADHESIVE FOAM</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
                 </div>
                 <div class="form-group">
-                    <label class="control-label">Company Address</label>
+                    <label class="control-label">BACK CAMERA FOAM</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">BB SHIELDING CASE</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">CELLPHONE BAG</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">DOWN MIC SILICONE COVER</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">DOWN SPEAKER BACK SEALING FOAM</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">DOWN SPEAKER FRONT SEALING FOAM</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">FLASH FPC</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">FRONT CAMERA FOAM</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">LCD CONNECTOR FOAM 1</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">LCD CONNECTOR FOAM 2</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">MAIN FPC</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">MOTOR</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">PCB GROUNDING SPONGE</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">PROXIMITY SENSOR SILICONE COVER</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">RF CABLE</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">SCREW M1.4X0.3X2.5L</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">SCREW M1.4X0.3X3.0L</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">SPEAKER</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">SPEAKER DOWN FPC</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">SPEAKER GROUNDING CONDUCTIVE SPONGE</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">SPEAKER SEALING BACK COVER FOAM</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">SPEAKER UP FPC</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">UP MIC SILICONE COVER</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                </div>
+                 <div class="form-group">
+                    <label class="control-label">UP SPEAKER BACK SEALING FOAM</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">UP SPEAKER FRONT SEALING FOAM</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
                 </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
@@ -304,12 +409,8 @@
             </div>
             <div class="panel-body">
                 <div class="form-group">
-                    <label class="control-label">Company Name</label>
+                    <label class="control-label">FRONT HOSING TP ASSEMBLY BLACK</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
-                </div>
-                <div class="form-group">
-                    <label class="control-label">Company Address</label>
-                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
                 </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
             </div>
@@ -320,7 +421,7 @@
             </div>
             <div class="panel-body">
                 <div class="form-group">
-                    <label class="control-label">Company Name</label>
+                    <label class="control-label">MMI</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
                 </div>
                 <div class="form-group">
