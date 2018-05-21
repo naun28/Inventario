@@ -14,13 +14,13 @@ $seis=$_POST['seis'];
 $siete=$_POST['siete'];
 $ocho=$_POST['ocho'];
 $nueve=$_POST['nueve'];
-$dies=$_POST['dies'];
+$diez=$_POST['diez'];
 $once=$_POST['once'];
 $doce=$_POST['doce'];
 $trece=$_POST['trece'];
 $catorce=$_POST['catorce'];
 $quince=$_POST['quince'];
-$diesisies=$_POST['diescisies'];
+$diesisies=$_POST['diesciseis'];
 $diesisiete=$_POST['diescisiete'];
 $diesiocho=$_POST['diesciocho'];
 $diesinueve=$_POST['diescinueve'];
@@ -68,20 +68,16 @@ $y=$_POST['y'];
 
 
 
-$rs = mysqli_query($conecviatiks, "SELECT * FROM usuarios");
-while($row=mysqli_fetch_array($rs))
-{
-	echo "<option value='".$row['nombres']. " " .$row['apellidos']."'>";
-	echo $row['nombres']. " " .$row['apellidos'];
-	echo "</option>";                     
-}
+$rs = mysqli_query($con, "SELECT * FROM products");
+$row=mysqli_fetch_array($rs);
 
+$
 
 $q= "INSERT INTO vehiculos (id,num_vehiculo,vehiculo,placas,rendimiento) values ('','$numvehiculo','$nomvehiculo',
 '$placavehiculo','$rendimiento')";
 $ejecuta_q= mysqli_query($conecviatik,$q) or die("error al insertar");
 echo "se inserto bien";
 mysqli_close($con);
-header('Location: ../Vista/viaticos.php');
+header('Location: ensamblaje.php');
 
 ?>

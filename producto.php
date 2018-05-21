@@ -185,7 +185,7 @@
 							while ($row=mysqli_fetch_array($query)){
 								?>
 						<tr>
-							<td><?php echo date('d/m/Y', strtotime($row['fecha']));?></td>
+							<td><?php echo date('d/m/Y H:i:s', strtotime($row['fecha']));?></td>
 							<td><?php echo date('H:i:s', strtotime($row['fecha']));?></td>
 							<td><?php echo $row['nota'];?></td>
 							<td><?php echo $row['referencia'];?></td>

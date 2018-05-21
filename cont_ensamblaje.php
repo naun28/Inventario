@@ -71,7 +71,7 @@
         
     </div>
     <hr>
-    <form role="form">
+    <form role="form" method="post" action="compara.php">
         <div class="panel panel-success setup-content" id="step-1">
             <div class="panel-heading">
                  <h3 class="panel-title">Accesorios Generales</h3>
