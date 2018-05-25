@@ -4,11 +4,11 @@
         <hr>
         <div class=" setup-panel">
             <div class="stepwizard-step col-xs-3"> 
-                <a href="#step-1" type="button" class="btn btn-success btn-circle">1</a>
+                <a href="#step-1" type="button"  class="btn btn-success btn-circle">1</a>
                 <p><small>Accesorios Generales</small></p>
             </div>
             <div class="stepwizard-step col-xs-3"> 
-                <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+                <a href="#step-2" type="button" class="btn btn-default btn-circle"  disabled="disabled">2</a>
                 <p><small>Antenas</small></p>
             </div>
             <div class="stepwizard-step col-xs-3"> 
@@ -72,6 +72,14 @@
     </div>
     <hr>
     <form role="form" method="post" action="compara.php">
+        <div class="form-group col-md-6">
+            <label class="control-label">Modelo</label>
+            <input type="text" name="modelo" required="required" class="form-control" placeholder="Modelo">
+        </div>
+        <div class="form-group col-md-6">
+            <label class="control-label">Cantidad</label>
+            <input type="number" name="cantidad" required="required" class="form-control" placeholder="Cantidad">
+        </div><br><br><br><br>
         <div class="panel panel-success setup-content" id="step-1">
             <div class="panel-heading">
                  <h3 class="panel-title">Accesorios Generales</h3>
