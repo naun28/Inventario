@@ -26,15 +26,10 @@
     <div class="container">
 	<div class="panel panel-success">
 		<div class="panel-body">
-		    <div class="btn-group pull-right">
-				<button type='button' class="btn btn-success" data-toggle="modal" data-target="#nuevoCliente"><span class="glyphicon glyphicon-plus" ></span> Agregar Telefono</button>
-			</div>
 			<h4><i class='glyphicon glyphicon-wrench'></i> Ensamblaje</h4>
 		</div>
 		<div class="panel-body">
 		
-			
-			
 			<?php
 				include("modal/nuevo_ensamble.php");
 				include("modal/editar_categorias.php");
@@ -44,42 +39,7 @@
 
 <?php include("cont_ensamblaje.php"); ?>
 
-</div>
-
-
-
-
-
-
-
-
-
-			<!--<form class="form-horizontal" role="form" id="datos_cotizacion">
-				
-						<div class="form-group row">
-							<label for="q" class="col-md-2 control-label">Nombre</label>
-							<div class="col-md-5">
-								<input type="text" class="form-control" id="q" placeholder="Nombre del Telefono" onkeyup='load(1);'>
-							</div>
-							<div class="col-md-3">
-								<button type="button" class="btn btn-default" onclick='load(1);'>
-									<span class="glyphicon glyphicon-search" ></span> Buscar</button>
-								<span id="loader"></span>
-							</div>
-							
-						</div>
-				
-				
-				
-			</form>
-				<div id="resultados"></div> Carga los datos ajax 
-				<div class='outer_div'></div> Carga los datos ajax -->
-			
-		
-	
-			
-			
-			
+</div>	
   </div>
 </div>
 		 
