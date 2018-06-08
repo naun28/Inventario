@@ -73,6 +73,9 @@
     </div>
     <hr>
     <form role="form" method="POST" action="compara.php">
+        <label class="control-label">Modelo</label>
+         <input type="text" required="required" class="form-control col-md-2" name="modelo" placeholder="Modelo"/>
+         <input type="hidden" required="required" class="form-control col-md-2" name="cantidad" placeholder="Cantidad" value="1" /><br><br><br><br>
         <div class="panel panel-success setup-content" id="step-1">
             <div class="panel-heading">
                  <h3 class="panel-title">Accesorios Generales</h3>
@@ -82,7 +85,7 @@
                 <div class="form-group">
                     
                     <label class="control-label">MICRO 5PIN USB CABLE</label>
-                    <input type="number" min="1" max="<?php 
+                    <input type="number" required="required" class="form-control col-md-6" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
                         $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
@@ -90,7 +93,7 @@
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="uno" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -106,12 +109,12 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 24"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="dos" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                   
                 </div><br><br>
                 <div class="form-group">
@@ -119,12 +122,12 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 86"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="tres" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -140,12 +143,12 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 18"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="cuatro" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -160,12 +163,12 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 27"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="cinco" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -180,48 +183,48 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 23"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="seis" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">SLEEVE GOLD</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 70"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="siete" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">SLEEVE GRAY</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 71"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="ocho" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">FAJILLA X710 DORADO</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 75"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="nueve" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -236,24 +239,24 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 15"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="diez" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">FRONT CAMERA</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 54"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="once" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -268,60 +271,60 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 17"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="doce" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">BACK COVER GRAY</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 40"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="trece" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">BATTERY COVER GOLDEN</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 41"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="catorce" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">BATTERY COVER GREY</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 42"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="quince" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">CAMERA LENS</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 45"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="diesciseis" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -336,48 +339,48 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 19"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="diescisiete" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">BATTERY SUPPORT LABEL</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 43"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="diesciocho" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">GIFT BOX LABELING</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 57"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="diescinueve" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">GIFT BOX SEALING LABEL</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 58"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="veinte" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -392,36 +395,24 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 21"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
-                </div>
+                        ?>" name="veintiuno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                </div><br><br>
                 <div class="form-group">
                     <label class="control-label">EARPHONE</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 52"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
-                </div>
-                <div class="form-group">
-                    <label class="control-label">MICRO 5PIN USB CABLE</label>
-                    <input type="number" min="1" max="<?php 
-                        require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
-                        require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
-                        $rs = mysqli_query($con,$q);
-                        $row=mysqli_fetch_array($rs);
-                        
-                            echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="veintidos" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -436,12 +427,12 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 25"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="veintitres" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -456,12 +447,12 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 28"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="veinticuatro" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -476,36 +467,36 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 16"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="veinticinco" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">BACK CAMERA LENS ADHESIVE TAPE</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 39"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="veintiseis" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">SUB PCBA TAPE</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 78"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="veintisiete" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -520,48 +511,48 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 20"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="veintiocho" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">SCREEN PROTECTOR</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 67"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="veintinueve" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">TP PROTECTIVE FILM</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 79"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="treinta" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">TPU PROTECTOR COVER</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 80"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="treitayuno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -579,60 +570,60 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 13"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="treintaydos" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">BACK CAMERA FOAM</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 38"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="treintaytres" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                  <div class="form-group">
                     <label class="control-label">BB SHIELDING CASE</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 44"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="treintaycuatro" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">CELLPHONE BAG</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 46"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="treintaycinco" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                  <div class="form-group">
                     <label class="control-label">DOWN MIC SILICONE COVER</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 47"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="a" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 </div>
                 <div class="col-lg-4">
@@ -641,60 +632,60 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 49"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="b" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                  <div class="form-group">
                     <label class="control-label">DOWN SPEAKER FRONT SEALING FOAM</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 50"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="c" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">FLASH FPC</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 53"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="d" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                  <div class="form-group">
                     <label class="control-label">FRONT CAMERA FOAM</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 56"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="e" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">LCD CONNECTOR FOAM 1</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 59"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="f" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 </div>
                 <div class="col-lg-4">
@@ -703,60 +694,60 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 60"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="g" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">MAIN FPC</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 61"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="h" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                  <div class="form-group">
                     <label class="control-label">MOTOR</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 63"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="i" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">PCB GROUNDING SPONGE</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 74"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="j" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                  <div class="form-group">
                     <label class="control-label">PROXIMITY SENSOR SILICONE COVER</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 65"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="k" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 </div>
                 </div>
@@ -767,48 +758,48 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 66"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="l" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                  <div class="form-group">
                     <label class="control-label">SCREW M1.4X0.3X2.5L</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 68"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="m" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">SCREW M1.4X0.3X3.0L</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 69"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="n" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                  <div class="form-group">
                     <label class="control-label">SPEAKER</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 72"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="o" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 </div>
                 <div class="col-lg-4">
@@ -817,12 +808,12 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 73"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="p" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 
                  <div class="form-group">
@@ -830,36 +821,36 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 74"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="q" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">SPEAKER SEALING BACK COVER FOAM</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 76"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="r" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                  <div class="form-group">
                     <label class="control-label">SPEAKER UP FPC</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 77"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="s" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 </div>
                 <div class="col-lg-4">
@@ -868,36 +859,36 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 81"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="t" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                  <div class="form-group">
                     <label class="control-label">UP SPEAKER BACK SEALING FOAM</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 82"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="u" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 <div class="form-group">
                     <label class="control-label">UP SPEAKER FRONT SEALING FOAM</label>
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 83"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="v" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div>
                 </div>    
                 </div>           
@@ -917,12 +908,12 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 22"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="w" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success nextBtn pull-right" type="button">Siguiente</button>
             </div>
@@ -937,12 +928,12 @@
                     <input type="number" min="1" max="<?php 
                         require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
                         require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 62"; 
+                        $q = "SELECT id_producto,nombre_producto,stock FROM products where id_producto = 64"; 
                         $rs = mysqli_query($con,$q);
                         $row=mysqli_fetch_array($rs);
                         
                             echo $row['stock'];
-                        ?>" name="uno" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
+                        ?>" name="x" required="required" class="form-control col-md-6" placeholder="Cantidad"/>
                 </div><br><br>
                 <button class="btn btn-success pull-right" type="submit">Registrar</button>
             </div>

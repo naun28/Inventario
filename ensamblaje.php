@@ -52,7 +52,6 @@
 	<script type="text/javascript" src="js/categorias.js"></script>
 	<script>
 		$(document).ready(function () {
-
     var navListItems = $('div.setup-panel div a'),
         allWells = $('.setup-content'),
         allNextBtn = $('.nextBtn');
@@ -81,11 +80,16 @@
             isValid = true;
 
         $(".form-group").removeClass("has-error");
+        
+        
         for (var i = 0; i < curInputs.length; i++) {
             if (!curInputs[i].validity.valid) {
                 isValid = false;
                 $(curInputs[i]).closest(".form-group").addClass("has-error");
+
+
             }
+
         }
 
         if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
